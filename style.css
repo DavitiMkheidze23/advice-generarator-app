@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202733;
+    padding: 120px 16px 232px 16px;
+}
+.main-div{
+    width: 343px;
+    border-radius: 10px;
+    background-color: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 48px;
+}
+.desktop-img{
+    display: none;
+}
+h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 3.45714px;
+    color: #53FFAA;
+    margin-bottom: 24px;
+}
+h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.257143px;
+    color: #CEE3E9;
+    margin-bottom: 24px;
+}
+button{
+    width: 64px;
+    height: 64px;
+    background-color:#53FFAA;
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    bottom: -32px;
+    left: 188px;
+}
+button:hover{
+    box-shadow: 0px 0px 40px #53FFAA;
+}
+@media only screen and (min-width: 1440px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #202733;
+        padding: 223px 450px 255px 450px;
+    }
+    .main-div{
+        width: 540px;
+        border-radius: 15px;
+        background-color: #313A48;
+        box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desktop-img{
+        display: inline;
+    }
+    .mobile-img{
+        display: none;
+    }
+    h2{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 4.08571px;
+        color: #53FFAA;
+    }
+    h1{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #CEE3E9;
+        margin-bottom: 40px;
+    }
+    button{
+        left: 285px;
+    }
+}
